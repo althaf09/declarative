@@ -23,7 +23,7 @@ pipeline
      {
          steps
          {
-             sh 'f ind / -name  *.war'
+             sh ' find / -name  *.war '
          }
      }
      stage ('deploy')
